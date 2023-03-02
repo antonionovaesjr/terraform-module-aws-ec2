@@ -4,7 +4,7 @@ provider "aws" {
 }
 
 module "ec2_instance" {
-  source              = "git::https://github.com/antonionovaesjr/terraform-module-aws-ec2.git?ref=v0.1.0-alpha"
+  source              = "git::https://github.com/antonionovaesjr/terraform-module-aws-ec2.git?ref=master"
   name                = "SERVER01"
   instance_os         = "ubuntu"
   instance_type       = "t3a.medium"
