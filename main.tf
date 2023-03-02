@@ -1,3 +1,5 @@
+provider "aws" {}
+
 resource "aws_instance" "server" {
   ami                         = var.instance_os_list[var.instance_os]
   instance_type               = var.instance_type
