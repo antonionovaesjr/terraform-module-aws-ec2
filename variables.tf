@@ -1,4 +1,5 @@
 variable "volume_size" {
+  description = "tamanho do espaço em disco"
   type    = number
   default = 10
 }
